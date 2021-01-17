@@ -1,23 +1,16 @@
 <template>
   <div id="app">
-    <h1>ねこです</h1>
-    <h2>テストページです。期末が終わったらちゃんとやりたい!!!!!!!!!</h2>
+    <HelloWorld msg="回文作成">
   </div>
 </template>
 
 <script>
+import Helloworld from './components/HelloWorld.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+      HelloWorld
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

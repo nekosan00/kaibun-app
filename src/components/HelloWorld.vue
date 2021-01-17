@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>回文作成</h1>
+    <h1>{{ msg }}</h1>
     <p>{{ f }}</p>
     <input v-model="k">
     <button v-on:click="reverseMessage">生成</button>
