@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-  <h1>回文生成</h1>
-
-  </div>
+    <h1>回文作成</h1>
+    <p>{{ f }}</p>
+    <input v-model="k">
+    <button v-on:click="reverseMessage">生成</button>
+    <button v-on:click="reverseMessageT">だぶらせずに生成</button>
+</div>
 </template>
 
 <script>
