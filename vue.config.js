@@ -1,4 +1,3 @@
 module.exports = {
-  publicPath: 'kaibun-app',
-  outputDir: 'docs'
+  outputDir: './docs',
 }
