@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Helloworld from './components/HelloWorld.vue'
+import Helloworld from '@/components/kaibun.vue'
 export default {
   name: 'App',
   components: {
-      HelloWorld
+      kaibun
   }
 }
 </script>
